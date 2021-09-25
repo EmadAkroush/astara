@@ -1,9 +1,14 @@
+/* 
+Theme Name: Astra Child 
+Theme URL: http://yourdomain.com
+Description: customized version of soorin 
+Theme Author: tik4
+Author URL: https://daneshavaran.com/
+Template: astra
+Version: 1.0.0 
+Text Domain: Astra-child 
+*/
 
-/**
-Theme Name: Astra
-template: astra
-
-/* Note: The CSS files are loaded from assets/css/ folder. */
 
 .as {
     background-image: url("img-logo/Shahid%20Hasheminejad%20Gas%20Refinery%20Company.jpg") !important;

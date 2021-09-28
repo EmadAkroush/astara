@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	
 <head>
 
-   
+   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/parsboard/style.css" />
 	
 	
 	<meta name="google-site-verification" content="y4tfbZe2FulZyGuibtqypStq3ariiyJDjBEh8gv0Y-0" />
@@ -76,4 +76,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div id="content" class="site-content">
 		<div class="ast-container">
 		<?php astra_content_top(); ?>
+
+
 

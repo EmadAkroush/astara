@@ -49,23 +49,28 @@ get_header(); ?>
                         <p class="first-p">(تخته هوشمند)</p>
                     </div>
                     <div class="second-p">
-                        <p> برد هوشمند یا تخته هوشمند یک محصول کمک آموزشی است که در آموزش سنتی وارد شده است و زمینه
-                            استفاده از داده‌های چند رسانه ای مانند فیلم و عکس را فراهم آورده است. این برد محیط مدرسه و
-                            کلاس درس را بسیار جذاب‌تر جلوه می‌دهد. وایت‌برد الکترونیکی بیشتر برای یادگیری تصویری طراحی
-                            شده است. به کمک آن مطالب از قالب متن بیرون آمده و دانش آموزان بهتر ‌می‌توانند آن را درک و به
-                            خاطر بسپارند. </p>
+                        <p> برد هوشمند یا تخته هوشمند یک محصول کمک آموزشی است که جایگزین آموزش سنتی با گچ و تخته سیاه و وایت برد، شده و آموزش را متحول کرده، همچنین زمینه استفاده از داده‌های چند رسانه ای مانند فیلم و عکس را فراهم آورده است. اتخته هوشمند پارس محیط مدرسه و کلاس درس را بسیار جذاب‌تر جلوه می‌دهد. وایت‌برد الکترونیکی بیشتر برای ارتقاء یادگیری در سطح جهانی طراحی شده است. به کمک آن مطالب از قالب متن بیرون آمده و دانش آموزان بهتر ‌می‌توانند آن را درک و به خاطر بسپارند. </p>
+                    </div>
+                                    <div class="first-button-landing-mother">
+                        <div class="button-landing1"> </div>
+                        <div class="button-landing2"> </div>
+                   
                     </div>
                 </div>
+
+            
                 <div class="grid-item2 grid-item">
-                  <img src="picture/Group 455.png">
+                  
+                  <img src="https://daneshavaran.com/wp-content/uploads/2021/09/parsboard.png" alt="parsboard" class="first-img"> 
                 </div>
+            </div>
             </div>
         </div>
         <div class="grid-container2 grid">
             <div class="grid-item3 grid-item">
                 <h2 class="first-h2">استفاده از برد هوشمند چگونه است ؟</h2>
                 <p class="third-p"> برای استفاده از تخته هوشمند شما نیاز به یک عدد برد هوشمند، یک <a target="_black"
-                        href="https://tadkala.com/accessories/mini-pc.html">مینی کامپیوتر</a> و یک عدد <a
+                        href="https://tadkala.com/accessories/mini-pc.html">کامپیوتر</a> و یک عدد <a
                         target="_black" href="https://tadkala.com/data-projector.html">دیتا پروژکتور</a> دارید. با اتصال
                     آن‌ها در کمتر از ۳۰ ثانیه برد مدارس شما قابل بهره برداری خواهد بود. پس از برقراری اتصال، تصویر
                     ویندوز توسط دیتا پروژکتور بر روی برد پارس هوشمند نمایش داده می‌شود. سپس شما یک صفحه 86 اینچ تمام
@@ -257,7 +262,7 @@ get_header(); ?>
                         سیستم‌های دانش آموزان و … </li>
                 </ul>
             </div>
-            <div class="grid-item5 grid-item"> <img src="picture/svg-1.svg" alt="Parsboard" loading="lazy"
+            <div class="grid-item5 grid-item"> <img src="https://daneshavaran.com/wp-content/uploads/2021/09/svg-1.svg" alt="Parsboard" loading="lazy"
                     class="second-img" />
                 <div class="backg-pic1">
                     <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_f22ir4yp.json"
@@ -267,17 +272,16 @@ get_header(); ?>
         </div>
         <div class="grid-container5 grid">
             <div class="grid-item6 grid-item">
-                <div class="backg-pic2-right"> <img src="picture/rectangle.svg" alt="background" class="rectangle"
+                <div class="backg-pic2-right"> <img src="https://daneshavaran.com/wp-content/uploads/2021/09/rectangle.svg" alt="background" class="rectangle"
                         loading="lazy" />
                     <div class="img-div1 img-div">
                         <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_szf2iuji.json"
                             background="transparent" speed="1" class="ball" loop autoplay></lottie-player>
                     </div>
-                </div><img src="picture/قرمز.png" alt="pen" class="pen" loading="lazy" /> <img
-                    src="picture/Parsboard1.png" alt="برد هوشمند پارس" loading="lazy" class="third-img" />
-                <div class="backg-pic2-left"> <img loading="lazy" src="picture/backg-pic3.svg" alt="background"
+                </div><img src="https://daneshavaran.com/wp-content/uploads/2021/09/قرمز.png" alt="pen" class="pen" loading="lazy" /> <img src="https://daneshavaran.com/wp-content/uploads/2021/09/Parsboard1.png" alt="برد هوشمند پارس" loading="lazy" class="third-img" />
+                <div class="backg-pic2-left"> <img loading="lazy" src="https://daneshavaran.com/wp-content/uploads/2021/09/backg-pic3.svg" alt="background"
                         class="backg-pic3" />
-                    <div class="img-div2 img-div"> <img src="picture/عکس-قلم-برد.png" alt="Pens" loading="lazy"
+                    <div class="img-div2 img-div"> <img src="https://daneshavaran.com/wp-content/uploads/2021/09/عکس-قلم-برد.png" alt="Pens" loading="lazy"
                             class="pens" /> </div>
                 </div>
             </div>
@@ -534,30 +538,8 @@ get_header(); ?>
             </div>
         </div>
     </div>
-    <?php
+
+
+<?php
 
 get_footer(); ?>
-</body>
-<script async src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<script async src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script async>
-    $(document).ready(function () {
-        $(".faqs-container .faq-singular:first-child").addClass("active").children(".faq-answer").slideDown();
-        $(".faq-question").on("click", function () {
-            if ($(this).parent().hasClass("active")) {
-                $(this).next().slideUp();
-                $(this).parent().removeClass("active");
-            } else {
-                $(".faq-answer").slideUp();
-                $(".faq-singular").removeClass("active");
-                $(this).parent().addClass("active");
-                $(this).next().slideDown();
-            }
-        });
-    });
-</script>
-
-
-
-</html>

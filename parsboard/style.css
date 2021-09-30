@@ -1148,10 +1148,27 @@ a:hover {
     background-color: #61ce70;
     width: 100%;
     height: 30px;
+    border-radius: 15px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: white;
 }
-.button-landing2{
-        background-color: #61ce70;
-        width: 100%;
-        height: 30px;
-        
+.button-landing2 {
+    background-color: #61ce70;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: white;
+}
+
+
+.button-landing1:hover {
+    transform: scale(1.1, 1.1);
+
+}
+.button-landing2:hover {
+    transform: scale(1.1, 1.1);
+
 }

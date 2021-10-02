@@ -72,7 +72,7 @@ a:hover {
 }
 
 .waveWrapper {
-    height: 933px;
+    height: 750px;
     position: absolute;
     left: 0;
     right: 0;
@@ -145,7 +145,7 @@ a:hover {
     display: grid;
     overflow: hidden;
     grid-template-columns: 100vw;
-    grid-template-rows: 930px repeat(6, auto);
+    grid-template-rows: 650px repeat(6, auto);
     grid-template-areas: "grid-container1""grid-container2""grid-container3""grid-container4""grid-container5""grid-container6""grid-container7";
     padding: 0 10px 0 10px;
     align-items: center;
@@ -599,7 +599,7 @@ a:hover {
 }
 
 .table {
-    padding: 15px;
+    
     font-size: 1.125rem;
     font-weight: normal;
     color: black;
@@ -735,7 +735,7 @@ a:hover {
     body {
         padding-top: 10%;
     }
-
+     
     h2 {
         font-size: 1.375rem;
     }
@@ -774,9 +774,7 @@ a:hover {
         padding: 20px;
     }
 
-    .grid-item {
-        padding: 5px;
-    }
+    
 
     .first-h1 {
         font-size: 2.375rem;
@@ -895,21 +893,28 @@ a:hover {
     }
 
     .grid {
-        margin-top: 10%;
+        margin-top: 1%;
     }
 
     .faq-singular .faq-question:before {
         left: 0%;
     }
+    .table{
+        padding: 15px;
+    }
 }
 
 @media screen and (max-width: 420px) {
+   
     .waveWrapper {
         height: 755px;
     }
 
     .grid-container2 {
         margin-top: 25%;
+    }
+    .table{
+        padding: 0px;
     }
 }
 
@@ -942,6 +947,9 @@ a:hover {
     .ball-pic3 {
         right: 45%;
         bottom: -13%;
+    }
+    .table{
+        padding: 0;
     }
 }
 

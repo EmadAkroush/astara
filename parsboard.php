@@ -5,15 +5,15 @@
 get_header(); ?>
 
 <body>
-    <div class="waveWrapper waveAnimation">
+<div class="waveWrapper waveAnimation">
         <div class="waveWrapperInner bgTop">
-            <div class="wave waveTop wavedesktop" style="background-image: url(picture/wave-bot.png);"></div>
+            <div class="wave waveTop wavedesktop" style="background-image: url(https://daneshavaran.com/wp-content/uploads/2021/10/wave-bot.png);"></div>
         </div>
         <div class="waveWrapperInner bgMiddle">
-            <div class="wave waveMiddle wavedesktop" style="background-image: url(picture/wave-mid.png);"></div>
+            <div class="wave waveMiddle wavedesktop" style="background-image: url(https://daneshavaran.com/wp-content/uploads/2021/10/wave-mid.png);"></div>
         </div>
         <div class="waveWrapperInner bgBottom">
-            <div class="wave waveBottom wavedesktop" style="background-image: url('picture/wave-top.png');"></div>
+            <div class="wave waveBottom wavedesktop" style="background-image: url('https://daneshavaran.com/wp-content/uploads/2021/10/wave-top.png');"></div>
         </div>
     </div>
     <div class="main-div">

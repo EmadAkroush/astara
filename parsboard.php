@@ -1,10 +1,11 @@
 <?php /* Template Name: parseboard */ ?>
 
-<?php
 
-get_header(); ?>
-
-<body>
+<?php 
+    get_header('parsboard');
+?>
+<main>
+    <div class="container-fluid pars_board">
     <div class="waveWrapper waveAnimation">
         <div class="waveWrapperInner bgTop">
             <div class="wave waveTop wavedesktop"
@@ -442,7 +443,7 @@ get_header(); ?>
     </div>
     <div class="grid-container7 grid">
         <div class="grid-item10 grid-item">
-            <h1>سولات متداول </h1>
+            <h1 class="grid-container7_h1">سولات متداول </h1>
 
             <div class="accordion">
                 <div class="accordion-item">
@@ -576,8 +577,7 @@ get_header(); ?>
         </div>
     </div>
     </div>
-
-
-    <?php
-
-get_footer(); ?>
+</main>
+<?php 
+    get_footer('parsboard');
+?>

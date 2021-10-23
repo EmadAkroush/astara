@@ -1,8 +1,10 @@
 <?php /* Template Name: parseboard */ ?>
 
-<?php
 
-get_header(); ?>
+<?php 
+if(is_page(175)) {
+ get_header('parsboard');
+} ?>
 
 <body>
     <div class="waveWrapper waveAnimation">
@@ -578,6 +580,9 @@ get_header(); ?>
     </div>
 
 
-    <?php
+  
 
-get_footer(); ?>
+<?php 
+if(is_page(175)) {
+ get_footer('parsboard');
+} ?>

@@ -20,96 +20,105 @@
 <link rel="dns-prefetch" href="https://www.aparat.com/">
 
 <?php wp_head(); ?>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-    <nav>
-        <div class="container">
-          <div class="logo">      
-            <span>SNAFU</span>
+    <div class="menu-container">
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a>
+        <div class="mega-menu">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <img src="https://picsum.photos/540/350" alt="Placeholder"/>
+            </div>
+            <div class="col">
+              <ul>
+                <li><a href="#">School</a>
+                  <ul>
+                    <li><a href="#">Lidership</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Study</a>
+                  <ul>
+                    <li><a href="#">Undergraduate</a></li>
+                    <li><a href="#">Masters</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Online</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Research</a>
+                  <ul>
+                    <li><a href="#">Undergraduate research</a></li>
+                    <li><a href="#">Masters research</a></li>
+                    <li><a href="#">Funding</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Something</a>
+                  <ul>
+                    <li><a href="#">Sub something</a></li>
+                    <li><a href="#">Sub something</a></li>
+                    <li><a href="#">Sub something</a></li>
+                    <li><a href="#">Sub something</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="list">
-            <div class="item">
-              <span class="title-item">   
-                صفحه اصلی 
-              </span>
-            </div>
-            <div class="item hoverable">
-              <span class="title-item">        
-                Features <span class="arrow">▼</span>  
-              </span>
-            </div>
-            <div class="item hoverable">
-              <span class="title-item">
-                Use cases <span class="arrow">▼</span>
-              </span>
-            </div>
-            <div class="item hoverable">
-              <span class="title-item">          
-                Docs & ressources <span class="arrow">▼</span>
-              </span>
-            </div>
-            <div class="item">
-              <span class="title-item">        
-                Pricing
-              </span>
-            </div>
-          </div>
+
         </div>
-    </nav>
-    
-    <div id="menu" class="menu">
-      <div class="content" id="content">
-        <div class="left-part">
-          <div class="list-submenu">
-            <div class="item title">
-              Blog
-            </div>
-          </div>
-          <div class="list-submenu">
-            <div class="item title">
-              Community
-            </div>
-            <div class="item">
-              Discord
-            </div>
-            <div class="item">
-              Stackoverflow
-            </div>
-            <div class="item">
-              Slack
-            </div>
-          </div>
-          <div class="list-submenu">
-            <div class="item title">
-              Solution
-            </div>
-            <div class="item">
-              API
-            </div>
-          </div>
-          <div class="list-submenu">
-            <div class="item title">
-              Application
-            </div>
-            <div class="item">
-              Mobile app
-            </div>
-            <div class="item">
-              Web app
-            </div>
-          </div>
+
+      </li>
+      <li><a href="#">News</a>
+        <ul>
+          <li><a href="#">Today</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Sport</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a>
+        <div class="mega-menu">
+          <ul>
+            <li><a href="#">School</a>
+              <ul>
+                <li><a href="#">Lidership</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Study</a>
+              <ul>
+                <li><a href="#">Undergraduate</a></li>
+                <li><a href="#">Masters</a></li>
+                <li><a href="#">International</a></li>
+                <li><a href="#">Online</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Study</a>
+              <ul>
+                <li><a href="#">Undergraduate</a></li>
+                <li><a href="#">Masters</a></li>
+                <li><a href="#">International</a></li>
+                <li><a href="#">Online</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Empty sub</a></li>
+          </ul>
         </div>
-        <div class="right-part">
-          <div class="card">
-            <img src="" alt="">
-            <p>Look at my fancy use case</p>
-            <button>Click to see more ></button>
-          </div>
-        </div>
-      </div>
-    </div>
+
+      </li>
+    </ul>
+  </div>
+</div>
+
+
     
 
     </header>

@@ -2,7 +2,7 @@
         <div class="scroll-up" onclick="scrollup()">
 
             <div class="charesetab">&#9650</div>
-            <p class="ersall-be-bala"> ارسال به بالا </p>
+
         </div>
         <div class="eshterak-footer">
             <div class="eshterack-text">
@@ -28,7 +28,7 @@
 
 
                 <div class="sec1footer">
-                    <img src="https://daneshavaran.com/wp-content/uploads/2021/10/logo-danesh-avaran.png" alt="" class="logo-img">
+       <img src="https://daneshavaran.com/wp-content/uploads/2021/10/logo-danesh-avaran.png" alt="" class="logo-img">
                 
                    
                         <?php
@@ -56,6 +56,7 @@
 
                         ?>
 
+
                 </div>
                 <div class="sec2footer">
                     <div class="sec2footer-part1">
@@ -73,10 +74,10 @@
                     <div class="sec2footer-part2">
                         <div class="mother-nemad">
                             <div class="nemad-footer1">
-
+                              <a referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=218337&amp;Code=UiPJAIT392SJWpy8mqyL"><img referrerpolicy="origin" src="https://Trustseal.eNamad.ir/logo.aspx?id=218337&amp;Code=UiPJAIT392SJWpy8mqyL" alt="" style="cursor:pointer" id="UiPJAIT392SJWpy8mqyL"></a>
                             </div>
                             <div class="nemad-footer2">
-
+                         <img id = 'nbqergvjoeukapfuapfurgvj' style = 'cursor:pointer' onclick = 'window.open("https://logo.samandehi.ir/Verify.aspx?id=238553&p=uiwkxlaomcsidshwdshwxlao", "Popup","toolbar=no, scrollbars=no, location=no, statusbar=no, menubar=no, resizable=0, width=450, height=630, top=30")' alt = 'logo-samandehi' src = 'https://logo.samandehi.ir/logo.aspx?id=238553&p=odrfqftiaqgwujynujynqfti' />
                             </div>
                             <div class="nemad-footer3">
 
@@ -101,10 +102,37 @@
 
                         </p>
                         <h4 class="header-footer-hr">تلفن های تماس </h4>
-                        <p > 0513-7055520-21 0513-7679650 0513767913 0513-7679194 </p>
+						<p > 051-37055520-21  <br> 051-37679650 <br> 051-37679193 <br> 051-37679194 </p>
                         <h4 class="header-footer-hr">ایمیل </h4>
                         <P>info@daneshavaran.com</P>
                     </div>
+					
+					
+					  <div class="sec2footer-part2-mobile">
+						      <p>مارا در شبکه های اجتماعی دنبال کنید</p>
+                        <div class="social-mother">
+                            <img src="https://daneshavaran.com/wp-content/uploads/2021/10/instagram.png" alt="" class="social social-instagram">
+                            <img src="https://daneshavaran.com/wp-content/uploads/2021/10/whats-up.png" alt="" class="social social-whats-up">
+                            <img src="https://daneshavaran.com/wp-content/uploads/2021/10/telegram.png" alt="" class="social social-telegram">
+                            <img src="https://daneshavaran.com/wp-content/uploads/2021/10/linkdin.png" alt="" class="social social-linkdin">
+                            <img src="https://daneshavaran.com/wp-content/uploads/2021/10/aparat.png" alt="" class="social social-aparat">
+                            <img src="https://daneshavaran.com/wp-content/uploads/2021/10/youtube.png" alt="" class="social social-youtube">
+                        </div>
+                        <div class="mother-nemad">
+                            <div class="nemad-footer1">
+                                           <a referrerpolicy="origin" target="_blank" href="https://trustseal.enamad.ir/?id=218337&amp;Code=UiPJAIT392SJWpy8mqyL"><img referrerpolicy="origin" src="https://Trustseal.eNamad.ir/logo.aspx?id=218337&amp;Code=UiPJAIT392SJWpy8mqyL" alt="" style="cursor:pointer" id="UiPJAIT392SJWpy8mqyL"></a>
+                            </div>
+                            <div class="nemad-footer2">
+                                                   <img id = 'nbqergvjoeukapfuapfurgvj' style = 'cursor:pointer' onclick = 'window.open("https://logo.samandehi.ir/Verify.aspx?id=238553&p=uiwkxlaomcsidshwdshwxlao", "Popup","toolbar=no, scrollbars=no, location=no, statusbar=no, menubar=no, resizable=0, width=450, height=630, top=30")' alt = 'logo-samandehi' src = 'https://logo.samandehi.ir/logo.aspx?id=238553&p=odrfqftiaqgwujynujynqfti' />
+                            </div>
+                            <div class="nemad-footer3">
+                                
+                            </div>
+                        </div>
+                                               
+
+                    </div>
+					
                 </div>
             </div>
             <p class="down-the-footer">تمام حقوق مادی و معنوی این سایت متعلق به شرکت دانش آوران خراسان می باشد</p>

@@ -20,105 +20,64 @@
 <link rel="dns-prefetch" href="https://www.aparat.com/">
 
 <?php wp_head(); ?>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
+ 
 
 <body>
-  <header>
-    <div class="menu-container">
-  <div class="menu">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a>
-        <div class="mega-menu">
-          <div class="row">
-            <div class="col-12 col-md-4">
-              <img src="https://picsum.photos/540/350" alt="Placeholder"/>
-            </div>
-            <div class="col">
-              <ul>
-                <li><a href="#">School</a>
-                  <ul>
-                    <li><a href="#">Lidership</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Locations</a></li>
-                    <li><a href="#">Careers</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Study</a>
-                  <ul>
-                    <li><a href="#">Undergraduate</a></li>
-                    <li><a href="#">Masters</a></li>
-                    <li><a href="#">International</a></li>
-                    <li><a href="#">Online</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Research</a>
-                  <ul>
-                    <li><a href="#">Undergraduate research</a></li>
-                    <li><a href="#">Masters research</a></li>
-                    <li><a href="#">Funding</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Something</a>
-                  <ul>
-                    <li><a href="#">Sub something</a></li>
-                    <li><a href="#">Sub something</a></li>
-                    <li><a href="#">Sub something</a></li>
-                    <li><a href="#">Sub something</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-
-      </li>
-      <li><a href="#">News</a>
-        <ul>
-          <li><a href="#">Today</a></li>
-          <li><a href="#">Calendar</a></li>
-          <li><a href="#">Sport</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Contact</a>
-        <div class="mega-menu">
-          <ul>
-            <li><a href="#">School</a>
-              <ul>
-                <li><a href="#">Lidership</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Locations</a></li>
-                <li><a href="#">Careers</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Study</a>
-              <ul>
-                <li><a href="#">Undergraduate</a></li>
-                <li><a href="#">Masters</a></li>
-                <li><a href="#">International</a></li>
-                <li><a href="#">Online</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Study</a>
-              <ul>
-                <li><a href="#">Undergraduate</a></li>
-                <li><a href="#">Masters</a></li>
-                <li><a href="#">International</a></li>
-                <li><a href="#">Online</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Empty sub</a></li>
-          </ul>
-        </div>
-
-      </li>
-    </ul>
+<header class="header header-parsboard">
+  <div class="header__container">
+  <div class="header__wrapper-mobile">
+  <div class="header__logo-wrapper">
+  <a class="header__logo-link" href="#">  <img src="https://daneshavaran.com/wp-content/uploads/2021/11/logo-danesh-avaran.png" alt="برد هوشمند دانش آوران" class="logo-header-pars-board">
+</a>
   </div>
-</div>
+     <div class="header__hamburger-wrapper">
+      <button class="hamburger-btn hamburger--collapse"   id="hamburger" type="button">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+          <div class="hamburger-inner"></div>
+          <div class="hamburger-inner"></div>
+        </div>
+      </button>
+    </div>
+	  </div>
+	      
+	  <nav class="header__nav show-nav">
+                
+                   
+                        <?php
+
+                        $defaults = array(
+                            'theme_location'  => '',
+                            'menu'            => 'فهرست اصلی',
+                            'container'       => 'ul',
+                            'container_class' => 'collapse navbar-collapse pull-left header__nav-list',
+                            'container_id'    => '',
+                            'menu_class'      => 'header-ul header__nav-list',
+                            'menu_id'         => '',
+                            'echo'            => true,
+                            'fallback_cb'     => 'wp_page_menu',
+                            'before'          => '',
+                            'after'           => '',
+                            'link_before'     => '',
+                            'link_after'      => '',
+                            'items_wrap'      => '<ul class="header-ul  header__nav-list">%3$s</ul>',
+                            'depth'           => 1,
+                            'walker'          => ''
+                        );
+
+                        wp_nav_menu( $defaults );
+
+                        ?>
+    </nav>
+	  
+	  
+	  
+	  
+	  
+  
+  
 
 
-    
-
-    </header>
+  </div>
+ </header>

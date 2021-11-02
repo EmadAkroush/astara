@@ -6,21 +6,7 @@
 ?>
 <main>
     <div class="container-fluid pars_board">
-    <div class="waveWrapper waveAnimation">
-        <div class="waveWrapperInner bgTop">
-            <div class="wave waveTop wavedesktop"
-                style="background-image: url(https://daneshavaran.com/wp-content/uploads/2021/10/wave-bot.png);"></div>
-        </div>
-        <div class="waveWrapperInner bgMiddle">
-            <div class="wave waveMiddle wavedesktop"
-                style="background-image: url(https://daneshavaran.com/wp-content/uploads/2021/10/wave-mid.png);"></div>
-        </div>
-        <div class="waveWrapperInner bgBottom">
-            <div class="wave waveBottom wavedesktop"
-                style="background-image: url('https://daneshavaran.com/wp-content/uploads/2021/10/wave-top.png');">
-            </div>
-        </div>
-    </div>
+
     <div class="main-div">
         <div class="grid-container1">
             <div class="svg">
@@ -60,13 +46,20 @@
                             می‌دهد. وایت‌برد الکترونیکی بیشتر برای ارتقاء یادگیری در سطح جهانی طراحی شده است. به کمک آن
                             مطالب از قالب متن بیرون آمده و دانش آموزان بهتر ‌می‌توانند آن را درک و به خاطر بسپارند. </p>
                     </div>
-                    <div class="first-button-landing-mother">
-                        <a href="https://tadkala.com/parsboard/" class="link-board">
-                            <div class="button-landing1"> خرید برد هوشمند </div>
-                        </a>
-                        <div class="button-landing2"> ویدیو محصول </div>
-
-                    </div>
+                        <div class="bottun-touch">
+							<a href="https://tadkala.com/parsboard/">
+                            <div class="right-touch"><img src="https://daneshavaran.com/wp-content/uploads/2021/10/touch-button-right.svg" alt=""
+                                    class="right-touch-icon"> <img src="https://daneshavaran.com/wp-content/uploads/2021/10/touch-button-right-white.svg" alt=""
+                                    class="right-touch-icon-hover">
+                                <P>خرید این محصول</P>
+                            </div>
+							</a>
+                            <div class="left-touch"><img src="https://daneshavaran.com/wp-content/uploads/2021/10/touch-button-left.svg" alt=""
+                                    class="left-touch-icon"> <img src="https://daneshavaran.com/wp-content/uploads/2021/10/touch-button-left-white.svg" alt=""
+                                    class="left-touch-icon-hover">
+                                <p>ویدیو این محصول </p>
+                            </div>
+                        </div>
                 </div>
 
 
@@ -77,6 +70,23 @@
                 </div>
             </div>
         </div>
+		
+		    <div class="waveWrapper waveAnimation">
+        <div class="waveWrapperInner bgTop">
+            <div class="wave waveTop wavedesktop"
+                style="background-image: url(https://daneshavaran.com/wp-content/uploads/2021/10/wave-bot.png);"></div>
+        </div>
+        <div class="waveWrapperInner bgMiddle">
+            <div class="wave waveMiddle wavedesktop"
+                style="background-image: url(https://daneshavaran.com/wp-content/uploads/2021/10/wave-mid.png);"></div>
+        </div>
+        <div class="waveWrapperInner bgBottom">
+            <div class="wave waveBottom wavedesktop"
+                style="background-image: url('https://daneshavaran.com/wp-content/uploads/2021/10/wave-top.png');">
+            </div>
+        </div>
+    </div>
+		
     </div>
     <div class="grid-container2 grid">
         <div class="grid-item3 grid-item">

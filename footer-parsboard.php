@@ -85,12 +85,28 @@
                         </div>
                         <p>مارا در شبکه های اجتماعی دنبال کنید</p>
                         <div class="social-mother">
+							
+							<a href="https://www.instagram.com/daneshavaran_com/"  class="social-icon-footer" target="_blank" rel="noopener noreferrer">
+
                             <img src="https://daneshavaran.com/wp-content/uploads/2021/10/instagram.png" alt="" class="social social-instagram">
+							</a>
                             <img src="https://daneshavaran.com/wp-content/uploads/2021/10/whats-up.png" alt="" class="social social-whats-up">
+							<a href="https://t.me/daneshavaran_khorasan"  class="social-icon-footer" target="_blank" rel="noopener noreferrer">
+
                             <img src="https://daneshavaran.com/wp-content/uploads/2021/10/telegram.png" alt="" class="social social-telegram">
+							</a>
+														<a href="https://www.linkedin.com/company/daneshavaran/"  class="social-icon-footer" target="_blank" rel="noopener noreferrer">
+
                             <img src="https://daneshavaran.com/wp-content/uploads/2021/10/linkdin.png" alt="" class="social social-linkdin">
+							</a>
+							<a href="https://www.aparat.com/daneshavaran"  class="social-icon-footer" target="_blank" rel="noopener noreferrer">
+                            
                             <img src="https://daneshavaran.com/wp-content/uploads/2021/10/aparat.png" alt="" class="social social-aparat">
+							</a>
+							<a href="https://www.youtube.com/channel/UCI5NwCQEj2Qi7rzhyQQVZuA"  class="social-icon-footer" target="_blank" rel="noopener noreferrer">
+
                             <img src="https://daneshavaran.com/wp-content/uploads/2021/10/youtube.png" alt="" class="social social-youtube">
+							</a>
                         </div>
                     </div>
 
@@ -102,9 +118,13 @@
 
                         </p>
                         <h4 class="header-footer-hr">تلفن های تماس </h4>
-						<p > 051-37055520-21  <br> 051-37679650 <br> 051-37679193 <br> 051-37679194 </p>
+						<p > <a href="tel:+985137055520">051-37055520</a>
+                           <br> <a href="tel:+985137679194">051-37679194</a>
+                            <br> <a href="tel:+985137679193">051-37679193</a> 
+							 <br> <a href="tel:+989398211526">09398211526</a> 
+					         </p>
                         <h4 class="header-footer-hr">ایمیل </h4>
-                        <P>info@daneshavaran.com</P>
+                        <P><a href="mailto:info@daneshavaran.com">info@daneshavaran.com</a></P>
                     </div>
 					
 					
@@ -144,6 +164,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB856XD"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri()?>/js/custom.js"> </script>
 <script async src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <?php wp_footer(); ?>
